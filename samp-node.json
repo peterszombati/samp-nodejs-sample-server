@@ -1,0 +1,5 @@
+{
+  "entry_file": "node_source/build/index.js",
+  "node_flags": [],
+  "plugins": ["samp-node","streamer"]
+}

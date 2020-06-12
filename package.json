@@ -1,0 +1,22 @@
+{
+  "name": "samp-nodejs-sample-server",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "cd pawn && chmod +x pawncc && ./pawncc ../gamemodes/grandlarc.pwn && mv grandlarc.amx ../gamemodes/grandlarc.amx && cd ../ && cd node_source && npm install && tsc",
+    "start": "chmod +x ./start.sh && ./start.sh",
+    "restart": "chmod +x ./start.sh && ./start.sh",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/peterszombati/samp-nodejs-sample-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/peterszombati/samp-nodejs-sample-server/issues"
+  },
+  "homepage": "https://gitlab.com/peterszombati/samp-nodejs-sample-server#readme"
+}
